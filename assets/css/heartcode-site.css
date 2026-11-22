@@ -14,3 +14,9 @@
 .footbrand img{width:100%;height:100%;object-fit:contain;object-position:center}
 .site-footer .footlinks{min-width:0}.site-footer .footlinks a{overflow-wrap:anywhere;word-break:break-word}
 @media(max-width:700px){.footgrid{grid-template-columns:1fr 1fr;column-gap:22px;row-gap:30px}.footgrid>div:first-child{grid-column:1/-1}.footgrid>div:last-child{min-width:0}.footbrand{width:210px;height:102px}.site-footer .footlinks a{overflow-wrap:anywhere;word-break:break-word}.site-footer .copyright{line-height:1.7}}
+
+/* Heartcode redesign refinement */
+:root{--navy:#071b43;--blue:#155eef;--purple:#7048df;--pink:#d7198a;--ink:#14264a;--muted:#687792;--line:#e6ecf5}
+.site-header{height:82px}.brand{width:208px;height:76px}.brand img{object-fit:contain;object-position:left center}
+.site-footer{padding:34px 0 18px}.footgrid{grid-template-columns:1.15fr 2fr;align-items:start;gap:30px}.footgrid>div:first-child{max-width:360px}.footgrid>div:nth-child(2),.footgrid>div:nth-child(3),.footgrid>div:nth-child(4){display:none}.site-footer .footlinks{display:flex;flex-wrap:wrap;justify-content:flex-end;gap:10px 22px}.site-footer .footlinks a{white-space:normal}.site-footer .copyright{margin-top:20px}
+@media(max-width:700px){.site-header{height:72px}.brand{width:178px;height:66px}.footgrid{grid-template-columns:1fr;gap:18px}.footgrid>div:first-child{grid-column:auto;max-width:none}.site-footer .footlinks{justify-content:flex-start;gap:8px 17px}.site-footer .copyright{margin-top:16px}}
